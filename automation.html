@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sales.css">
+    <style>
+        /* Custom styles can be added here */
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <header class="bg--600 text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <img src="image\saleslogo1.png" alt="Salesforce Logo" class="w-22 h-24">
+            <!-- If you have a high-resolution logo, adjust the width and height as needed -->
+        </div>
+    </header>
+    <nav class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-end space-x-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li class="dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Admin</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="datamanagement.html">Data Management</a></li>
+                            <li><a href="automation.html">Automation</a></li>
+                            <li><a href="sharingsecurity.html">Security & Sharing</a></li>
+                            <li><a href="integration.html">Integration</a></li>
+                            <li><a href="email.html">Email & Communication</a></li>
+                            <li><a href="mobile.html">Mobile & Lightning Experience</a></li>
+                            <li><a href="collab.html">Collaboration & Chatter</a></li>
+                            <li><a href="analytics.html">Analytics & Einstein</a></li>
+                            <li><a href="governance.html">Governance & Best Practices</a></li>
+                            <li><a href="training.html">Training & Adoption</a></li>
+                    </ul>
+                </li>
+                <li class=" dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Development</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#apex">Apex</a></li>
+                        <li><a href="#visualforce">Visualforce</a></li>
+                        <li><a href="#lightning">Lightning</a></li>
+                        <li><a href="#lwc">LWC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+
+        <main class="container mx-auto px-4 py-8 mt-8">
+        <section id="automation" class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="bg-gray-800 text-xl text-white font-bold mb-4 text-center">Automation</h2>
+            
+            <!-- 1. Workflows -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Workflows</h3>
+                <p class="text-gray-700">Workflows allow Salesforce administrators to automate standard business processes and streamline operations. With workflows, you can define rules that trigger automatic actions, such as sending email alerts, updating field values, or creating tasks.</p>
+            </div>
+            
+            <!-- 2. Approval Processes -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Approval Processes</h3>
+                <p class="text-gray-700">Approval processes automate the approval of records in Salesforce. Administrators can define criteria for record approval and set up multiple steps with assigned approvers. This helps enforce business rules and ensures proper authorization for critical actions.</p>
+            </div>
+            
+            <!-- 3. Process Builder -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Process Builder</h3>
+                <p class="text-gray-700">Process Builder is a powerful automation tool that allows administrators to build complex, multi-step processes without writing code. With Process Builder, you can automate repetitive tasks, update multiple related records, and trigger actions based on specific criteria.</p>
+            </div>
+            
+            <!-- 4. Flows -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Flows</h3>
+                <p class="text-gray-700">Flows are similar to Process Builder but offer even more flexibility and customization options. With Flows, you can create guided visual experiences for users, automate complex business processes, and integrate with external systems.</p>
+            </div>
+            
+            <!-- 5. Scheduled Actions -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Scheduled Actions</h3>
+                <p class="text-gray-700">Scheduled actions allow administrators to schedule automatic actions to occur at specific times or intervals. This feature is useful for tasks such as sending reminders, updating records on a recurring basis, or triggering follow-up actions based on predefined schedules.</p>
+            </div>
+        </section>
+        </main>
+        
+
+        
+            
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 Salesforce</p>
+            </div>
+        </footer>
+    
+    </body>
+    </html>

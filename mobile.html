@@ -1,0 +1,124 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sales.css">
+    <style>
+        /* Custom styles can be added here */
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <header class="bg--600 text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <img src="image\saleslogo1.png" alt="Salesforce Logo" class="w-22 h-24">
+            <!-- If you have a high-resolution logo, adjust the width and height as needed -->
+        </div>
+    </header>
+    <nav class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-end space-x-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li class="dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Admin</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="user.html">User Management</a></li>
+                        <li><a href="datamanagement.html">Data Management</a></li>
+                        <li><a href="automation.html">Automation</a></li>
+                        <li><a href="sharingsecurity.html">Security & Sharing</a></li>
+                        <li><a href="integration.html">Integration</a></li>
+                        <li><a href="email.html">Email & Communication</a></li>
+                        <li><a href="mobile.html">Mobile & Lightning Experience</a></li>
+                        <li><a href="collab.html">Collaboration & Chatter</a></li>
+                        <li><a href="analytics.html">Analytics & Einstein</a></li>
+                        <li><a href="governance.html">Governance & Best Practices</a></li>
+                        <li><a href="training.html">Training & Adoption</a></li>
+                    </ul>
+                </li>
+                <li class=" dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Development</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#apex">Apex</a></li>
+                        <li><a href="#visualforce">Visualforce</a></li>
+                        <li><a href="#lightning">Lightning</a></li>
+                        <li><a href="#lwc">LWC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 mt-8">
+        
+        <section id="mobile-lightning-experience" class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="bg-gray-800 text-xl text-white font-bold mb-4 text-center">Mobile & Lightning Experience</h2>
+            
+            <!-- Lightning Experience Interface -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Lightning Experience Interface</h3>
+                <p class="text-gray-700">Salesforce Lightning Experience provides a modern and intuitive user interface designed to enhance productivity and user experience:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Lightning App Builder: Customize pages and create dynamic, responsive interfaces using the Lightning App Builder without writing code.</li>
+                    <li class="text-gray-700">Lightning Components: Leverage reusable Lightning components to build custom functionality and enhance user interaction within the Salesforce interface.</li>
+                    <li class="text-gray-700">Kanban View: Visualize and manage records using the Kanban view, allowing users to drag-and-drop records between stages for easy pipeline management.</li>
+                    <li class="text-gray-700">Path: Guide users through predefined processes with the Path component, providing visual cues and progress indicators to streamline workflows.</li>
+                </ul>
+            </div>
+        
+            <!-- Mobile App Capabilities -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Mobile App Capabilities</h3>
+                <p class="text-gray-700">Salesforce Mobile App extends the power of Salesforce to users on the go, enabling access to critical data and functionalities from anywhere:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Offline Access: Access and update records even without an internet connection, ensuring productivity in remote or low-connectivity environments.</li>
+                    <li class="text-gray-700">Mobile Dashboards: View real-time insights and key metrics on customizable dashboards, providing actionable intelligence at your fingertips.</li>
+                    <li class="text-gray-700">Einstein Voice Assistant: Interact with Salesforce using natural language commands and voice dictation to perform actions, retrieve information, and stay productive on the move.</li>
+                    <li class="text-gray-700">Mobile Notifications: Stay informed with push notifications for important updates, tasks, events, or approvals, keeping you connected and responsive.</li>
+                </ul>
+            </div>
+        
+            <!-- Customization Options -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Customization Options</h3>
+                <p class="text-gray-700">Salesforce offers extensive customization options to tailor the Lightning Experience and Mobile App to your organization's unique needs:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Custom Objects & Fields: Create custom objects and fields to capture and store data specific to your business processes, ensuring flexibility and scalability.</li>
+                    <li class="text-gray-700">Page Layouts: Design custom page layouts to organize and display information efficiently, optimizing user workflows and navigation.</li>
+                    <li class="text-gray-700">App Customization: Customize the Salesforce Mobile App with branded themes, custom navigation menus, and personalized layouts to align with your company's branding and preferences.</li>
+                    <li class="text-gray-700">Lightning Pages: Build custom Lightning pages with drag-and-drop components to deliver tailored experiences for different user roles, departments, or processes.</li>
+                </ul>
+            </div>
+        
+            <!-- Best Practices -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Best Practices</h3>
+                <p class="text-gray-700">To maximize the benefits of Mobile & Lightning Experience in Salesforce, consider the following best practices:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">User Training: Provide comprehensive training and resources to users to ensure they are proficient in navigating and utilizing the Lightning Experience interface and Mobile App effectively.</li>
+                    <li class="text-gray-700">Regular Updates: Stay updated with the latest features, enhancements, and releases in Lightning Experience and the Salesforce Mobile App to leverage new capabilities and improvements.</li>
+                    <li class="text-gray-700">User Feedback: Solicit feedback from users regularly to understand their needs, pain points, and suggestions for improvement, and incorporate user feedback into ongoing enhancements and customization efforts.</li>
+                    <li class="text-gray-700">Security & Compliance: Implement robust security measures and adhere to compliance standards to protect sensitive data and ensure regulatory compliance, especially in mobile environments where data access and privacy are critical.</li>
+                </ul>
+            </div>
+        </section>
+        
+        
+        </main>
+
+        
+            
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 Salesforce</p>
+            </div>
+        </footer>
+    
+    </body>
+    </html>

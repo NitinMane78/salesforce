@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sales.css">
+    <style>
+        /* Custom styles can be added here */
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <header class="bg--600 text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <img src="image\saleslogo1.png" alt="Salesforce Logo" class="w-22 h-24">
+            <!-- If you have a high-resolution logo, adjust the width and height as needed -->
+        </div>
+    </header>
+    <nav class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-end space-x-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li class="dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Admin</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="datamanagement.html">Data Management</a></li>
+                            <li><a href="automation.html">Automation</a></li>
+                            <li><a href="sharingsecurity.html">Security & Sharing</a></li>
+                            <li><a href="integration.html">Integration</a></li>
+                            <li><a href="email.html">Email & Communication</a></li>
+                            <li><a href="mobile.html">Mobile & Lightning Experience</a></li>
+                            <li><a href="collab.html">Collaboration & Chatter</a></li>
+                            <li><a href="analytics.html">Analytics & Einstein</a></li>
+                            <li><a href="governance.html">Governance & Best Practices</a></li>
+                            <li><a href="training.html">Training & Adoption</a></li>
+                    </ul>
+                </li>
+                <li class=" dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Development</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#apex">Apex</a></li>
+                        <li><a href="#visualforce">Visualforce</a></li>
+                        <li><a href="#lightning">Lightning</a></li>
+                        <li><a href="#lwc">LWC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 mt-8">
+        
+        <section id="analytics-einstein" class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="bg-gray-800 text-xl text-white font-bold mb-4 text-center">Analytics & Einstein</h2>
+            
+            <!-- Reporting -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Reporting</h3>
+                <p class="text-gray-700">Salesforce Reporting allows users to analyze their data and generate actionable insights using customizable reports:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Standard & Custom Reports: Salesforce provides a library of standard reports covering common use cases, as well as the ability to create custom reports tailored to specific business requirements.</li>
+                    <li class="text-gray-700">Drag-and-Drop Interface: Users can easily build reports using a drag-and-drop interface, selecting fields, filters, and grouping options to visualize their data in tables, charts, or matrices.</li>
+                    <li class="text-gray-700">Filters & Summaries: Reports can be filtered to focus on specific criteria or time periods, and users can add summary formulas to calculate totals, averages, or other aggregate metrics.</li>
+                    <li class="text-gray-700">Scheduled & Automated Reporting: Users can schedule reports to run at predefined intervals and automatically distribute them via email or Salesforce Chatter, ensuring stakeholders receive timely insights.</li>
+                </ul>
+            </div>
+        
+            <!-- Dashboards -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Dashboards</h3>
+                <p class="text-gray-700">Salesforce Dashboards enable users to visualize and monitor key metrics and KPIs in real-time, providing actionable insights at a glance:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Dynamic Dashboards: Users can create dynamic dashboards consisting of multiple components, such as charts, tables, and metrics, to track various aspects of their business performance.</li>
+                    <li class="text-gray-700">Interactive Filters: Dashboards can include interactive filters that allow users to dynamically adjust the data displayed based on criteria such as date range, region, or product category.</li>
+                    <li class="text-gray-700">Drill-Down Capabilities: Users can drill down into dashboard components to explore underlying data in more detail, facilitating deeper analysis and investigation of trends or outliers.</li>
+                    <li class="text-gray-700">Mobile Access: Dashboards are accessible on mobile devices through the Salesforce mobile app, enabling users to stay informed and make data-driven decisions on the go.</li>
+                </ul>
+            </div>
+        
+            <!-- Einstein Analytics -->
+            <div class="mb-6">
+                <h3 class="text-lg font-semibold mb-2">Einstein Analytics</h3>
+                <p class="text-gray-700">Einstein Analytics empowers organizations with AI-driven insights and predictive analytics capabilities to unlock the full potential of their data:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Advanced Analytics: Einstein Analytics leverages AI and machine learning algorithms to uncover hidden patterns, trends, and correlations within large datasets, enabling organizations to make data-backed decisions.</li>
+                    <li class="text-gray-700">Predictive Insights: Einstein Discovery enables users to build predictive models and forecasts based on historical data, identifying factors that drive outcomes and recommending actions to optimize results.</li>
+                    <li class="text-gray-700">Smart Data Preparation: Einstein Data Prep automates data cleansing, transformation, and enrichment tasks, reducing manual effort and ensuring data quality for analysis.</li>
+                    <li class="text-gray-700">Embedded Analytics: Einstein Analytics seamlessly integrates with Salesforce CRM and other data sources, embedding analytics directly into business processes and workflows for actionable insights where users need them most.</li>
+                </ul>
+            </div>
+        
+            <!-- AI-driven Insights -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">AI-driven Insights</h3>
+                <p class="text-gray-700">Salesforce Einstein delivers AI-driven insights across the Salesforce platform to drive smarter decisions and enhance user productivity:</p>
+                <ul class="list-disc pl-6">
+                    <li class="text-gray-700">Lead Scoring & Opportunity Insights: Einstein Lead Scoring and Opportunity Insights leverage AI to prioritize leads and opportunities based on their likelihood to convert, empowering sales teams to focus on high-value prospects.</li>
+                    <li class="text-gray-700">Service & Support Intelligence: Einstein Case Classification and Service Analytics analyze support cases to identify trends, recommend solutions, and optimize service processes for improved customer satisfaction.</li>
+                    <li class="text-gray-700">Marketing Personalization: Einstein Engagement Scoring and Predictive Audiences enable marketers to personalize campaigns, predict customer behavior, and optimize engagement strategies to drive higher conversion rates and ROI.</li>
+                    <li class="text-gray-700">Community & Commerce Insights: Einstein Community Insights and Commerce Insights provide actionable analytics for community managers and commerce teams, enabling them to optimize community engagement and drive revenue growth.</li>
+                </ul>
+            </div>
+        </section>
+        
+
+        </main>
+
+        
+            
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 Salesforce</p>
+            </div>
+        </footer>
+    
+    </body>
+    </html>

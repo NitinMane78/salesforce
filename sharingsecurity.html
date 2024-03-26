@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sales.css">
+    <style>
+        /* Custom styles can be added here */
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <header class="bg--600 text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <img src="image\saleslogo1.png" alt="Salesforce Logo" class="w-22 h-24">
+            <!-- If you have a high-resolution logo, adjust the width and height as needed -->
+        </div>
+    </header>
+    <nav class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-end space-x-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li class="dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Admin</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="user.html">User Management</a></li>
+                        <li><a href="datamanagement.html">Data Management</a></li>
+                        <li><a href="automation.html">Automation</a></li>
+                        <li><a href="sharingsecurity.html">Security & Sharing</a></li>
+                        <li><a href="integration.html">Integration</a></li>
+                        <li><a href="email.html">Email & Communication</a></li>
+                        <li><a href="mobile.html">Mobile & Lightning Experience</a></li>
+                        <li><a href="collab.html">Collaboration & Chatter</a></li>
+                        <li><a href="analytics.html">Analytics & Einstein</a></li>
+                        <li><a href="governance.html">Governance & Best Practices</a></li>
+                        <li><a href="training.html">Training & Adoption</a></li>
+                    </ul>
+                </li>
+                <li class=" dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Development</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#apex">Apex</a></li>
+                        <li><a href="#visualforce">Visualforce</a></li>
+                        <li><a href="#lightning">Lightning</a></li>
+                        <li><a href="#lwc">LWC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   
+        
+    <main class="container mx-auto px-4 py-8 mt-8">
+          
+        
+            <!-- Sharing & Security Section -->
+            <section id="sharing-security" class="bg-white rounded-lg shadow-md p-6 mb-6">
+                <h2 class="bg-gray-800 text-xl text-white font-bold mb-4 text-center">Sharing & Security</h2>
+                
+                <!-- Sharing Rules -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-2">Sharing Rules</h3>
+                    <p class="text-gray-700">Sharing rules in Salesforce allow administrators to extend record access beyond the organization-wide defaults. They define the conditions under which specific groups of users can access certain records, such as based on criteria like record owner or field values.</p>
+                    <p class="text-gray-700">Sharing rules can be created for both standard and custom objects, and they help ensure that users have appropriate access to the data they need to perform their jobs.</p>
+                    <p class="text-gray-700">It's essential to carefully design sharing rules to balance data security and accessibility.</p>
+                </div>
+            
+                <!-- Field-Level Security -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-2">Field-Level Security</h3>
+                    <p class="text-gray-700">Field-level security controls access to individual fields on objects in Salesforce. Admins can restrict users' ability to view or edit specific fields, ensuring that sensitive data remains protected.</p>
+                    <p class="text-gray-700">Field-level security settings can be adjusted at the profile level, allowing different levels of access for different types of users.</p>
+                    <p class="text-gray-700">It's crucial to review and update field-level security regularly to maintain data integrity and compliance.</p>
+                </div>
+            
+                <!-- Roles and Role Hierarchy -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-2">Roles and Role Hierarchy</h3>
+                    <p class="text-gray-700">Roles in Salesforce define the hierarchy of data access within an organization. The role hierarchy determines which records users can view, edit, or delete based on their position in the hierarchy.</p>
+                    <p class="text-gray-700">Role hierarchies help ensure that users can only access the data they need to perform their job functions, while also allowing for appropriate levels of visibility and collaboration.</p>
+                    <p class="text-gray-700">It's important to design a clear and logical role hierarchy that reflects the organization's structure and business processes.</p>
+                </div>
+            
+                <!-- Additional Security Measures -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-2">Additional Security Measures</h3>
+                    <p class="text-gray-700">Apart from sharing rules, field-level security, and role hierarchy, Salesforce offers various additional security measures such as:</p>
+                    <ul class="list-disc pl-6">
+                        <li class="text-gray-700">Login Policies: Enforce security measures like password requirements, login hours, IP restrictions, and multi-factor authentication to protect user accounts from unauthorized access.</li>
+                        <li class="text-gray-700">Encryption: Encrypt sensitive data at rest and in transit to protect it from unauthorized access.</li>
+                        <li class="text-gray-700">Audit Trail: Monitor and track user activity to ensure compliance and detect suspicious behavior.</li>
+                        <!-- Add more security measures as needed -->
+                    </ul>
+                </div>
+            
+                <!-- Conclusion -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Conclusion</h3>
+                    <p class="text-gray-700">Effective sharing and security practices are fundamental to maintaining data integrity, protecting sensitive information, and ensuring compliance with regulatory requirements. By implementing robust security measures and continuously reviewing and updating them, organizations can build a trusted and secure Salesforce environment.</p>
+                </div>
+            </section>
+            
+        </main>
+
+        
+            
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 Salesforce</p>
+            </div>
+        </footer>
+    
+    </body>
+    </html>

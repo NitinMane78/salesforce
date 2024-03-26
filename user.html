@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sales.css">
+    <style>
+        /* Custom styles can be added here */
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <header class="bg--600 text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <img src="image\saleslogo1.png" alt="Salesforce Logo" class="w-22 h-24">
+            <!-- If you have a high-resolution logo, adjust the width and height as needed -->
+        </div>
+    </header>
+    <nav class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-4">
+            <ul class="flex justify-end space-x-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li class="dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Admin</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="user.html">User Management</a></li>
+                            <li><a href="datamanagement.html">Data Management</a></li>
+                            <li><a href="automation.html">Automation</a></li>
+                            <li><a href="sharingsecurity.html">Security & Sharing</a></li>
+                            <li><a href="integration.html">Integration</a></li>
+                            <li><a href="email.html">Email & Communication</a></li>
+                            <li><a href="mobile.html">Mobile & Lightning Experience</a></li>
+                            <li><a href="collab.html">Collaboration & Chatter</a></li>
+                            <li><a href="analytics.html">Analytics & Einstein</a></li>
+                            <li><a href="governance.html">Governance & Best Practices</a></li>
+                            <li><a href="training.html">Training & Adoption</a></li>
+                    </ul>
+                </li>
+                <li class=" dropdown relative">
+                    <a href="#" class="hover:text-gray-300">Development</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#apex">Apex</a></li>
+                        <li><a href="#visualforce">Visualforce</a></li>
+                        <li><a href="#lightning">Lightning</a></li>
+                        <li><a href="#lwc">LWC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8 mt-8">
+        <section id="user-management" class="bg-white rounded-lg shadow-md p-6 mb-6" id="mar">
+            <h2 class="bg-gray-800 text-xl text-white font-bold mb-4 text-center">User Management</h2>
+            <p class="text-gray-700 mb-4">User management in Salesforce involves creating, maintaining, and controlling user accounts to ensure proper access and security within the organization's Salesforce instance.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">1. Creating User Accounts</h3>
+            <p class="text-gray-700 mb-4">Administrators can create new user accounts to provide access to Salesforce for employees, partners, or customers. When creating user accounts, administrators specify various details such as username, email address, profile, role, and permissions.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">2. Editing User Accounts</h3>
+            <p class="text-gray-700 mb-4">Admins can edit user account details as needed, such as updating contact information, changing roles or profiles, adjusting permissions, and modifying login settings.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">3. Deactivating User Accounts</h3>
+            <p class="text-gray-700 mb-4">When an employee leaves the organization or no longer requires access to Salesforce, administrators can deactivate their user accounts to prevent further access. Deactivated users cannot log in to Salesforce but their data and records remain intact.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">4. Profiles</h3>
+            <p class="text-gray-700 mb-4">Profiles in Salesforce define the permissions and settings that determine what users can do within the organization's Salesforce instance. Administrators assign profiles to user accounts to grant appropriate access and functionality based on roles and responsibilities.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">5. Permission Sets</h3>
+            <p class="text-gray-700 mb-4">Permission sets allow administrators to grant additional permissions or access settings to specific users, beyond what is available in their assigned profiles. This enables more granular control over user access and functionality.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">6. Roles</h3>
+            <p class="text-gray-700 mb-4">Roles in Salesforce define the hierarchy of data access within the organization. By assigning roles to user accounts, administrators control which records users can view, edit, or delete based on their position in the hierarchy.</p>
+            
+            <h3 class="text-lg font-semibold mb-2">7. Login Policies</h3>
+            <p class="text-gray-700 mb-4">Administrators can configure login policies to enforce security measures such as password requirements, login hours, IP restrictions, and multi-factor authentication to protect user accounts from unauthorized access.</p>
+        </section>
+        </main>
+
+        
+            
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 Salesforce</p>
+            </div>
+        </footer>
+    
+    </body>
+    </html>
